@@ -1,0 +1,52 @@
+{
+  "name": "oxid-flow-sass",
+  "description": "",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^6.7.6",
+    "grunt": "^1.0.2",
+    "grunt-bump": "^0.8.0",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-conventional-changelog": "^6.1.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-svgmin": "^4.0.0",
+    "grunt-svgstore": "^1.0.0",
+    "matchdep": "^1.0.1",
+    "postcss-assets": "^4.1.0",
+    "postcss-inline-svg": "^2.3.0",
+    "postcss-svgo": "^2.1.6",
+    "grunt-contrib-uglify": "^0.11.1"
+  },
+  "pbi_pattern": {
+    "dir": {
+      "assets": "assets",
+      "sass": "assets/scss",
+      "js": "assets/js",
+      "source": "source",
+      "bower": "assets/bower",
+      "buildconf": "grunt",
+      "compileto": "dist/build/",
+      "distto": "dist/",
+      "oxidimg": "../../../../oxid6/master/source/out/prosenio-b2b/",
+      "oxidtheme": "../../../../oxid6/master/source/out/prosenio-b2b/src/",
+      "copyto": "outProsenio/prosenio-b2b/src/",
+      "copyimg": "outProsenio/prosenio-b2b/"
+    },
+    "header": {
+      "css": [
+        {
+          "src": "css/style.min.css"
+        }
+      ],
+      "js": []
+    },
+    "footer": {}
+  }
+}
