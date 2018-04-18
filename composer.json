@@ -1,0 +1,22 @@
+{
+    "name": "prosenio/prosenio-b2b-theme",
+    "description": "This is prosenio-b2b Theme for OXID eShop.",
+    "type": "oxideshop-theme",
+    "keywords": [
+        "oxid",
+        "themes",
+        "eShop"
+    ],
+    "homepage": "https://www.prosenio.de",
+    "license": [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "oxideshop": {
+            "target-directory": "prosenio-b2b",
+            "assets-directory": "out/prosenio-b2b"
+        }
+    }
+}
